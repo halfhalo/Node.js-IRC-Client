@@ -1,7 +1,7 @@
-var irc=require('./irc');
+var irc=require('./lib/irc');
 var sys=require('sys');
 var utils=require('utils');
-var colours = require("./colours");
+var colours = require("./lib/colours");
 
 var client= new irc.Client();
 
