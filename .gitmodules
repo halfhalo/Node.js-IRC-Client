@@ -1,0 +1,6 @@
+[submodule "lib/colours"]
+	path = lib/colours
+	url = http://github.com/botanicus/colours.js.git
+[submodule "lib/irc"]
+	path = lib/irc
+	url = git@github.com:halfhalo/Node.js-IRC.git
