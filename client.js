@@ -31,14 +31,17 @@ client.addListener('Message',function(data){
 });
 client.addListener('Join', function(data){
 	var output=JSON.parse(data);
+	sys.puts('test');
 	sys.puts("> "+colours.blue+"(JOIN)"+colours.reset+colours.magenta+" "+output.user+" "+colours.reset+output.channel);
 });
 client.addListener('Quit', function(data){
 	var output=JSON.parse(data);
+	sys.puts('test');
 	sys.puts("> "+colours.blue+"(QUIT)"+colours.reset+colours.magenta+" "+output.user+" "+colours.reset+output.message);
 });
 client.addListener('Part', function(data){
 	var output=JSON.parse(data);
+	sys.puts('test');
 	sys.puts("> "+colours.blue+"(PART)"+colours.reset+colours.magenta+" "+output.user+colours.reset+" Left "+output.channel);
 });
 client.addListener('Notice', function(data){
