@@ -4,3 +4,6 @@
 [submodule "lib/irc"]
 	path = lib/irc
 	url = git@github.com:halfhalo/Node.js-IRC.git
+[submodule "lib/socket"]
+	path = lib/socket
+	url = http://github.com/LearnBoost/Socket.IO-node.git
